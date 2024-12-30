@@ -1,2 +1,2 @@
-# windows
- Reprodução da tela do windows 11, utilizando htnk, css e js 
+# Windows 11
+ Reprodução da tela do windows 11, utilizando html, css e js 
