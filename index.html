@@ -5,16 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Windows 11</title>
     <link rel="stylesheet" href="styles/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-</head>
+    <script src="https://kit.fontawesome.com/da4ae36c0e.js" crossorigin="anonymous"></script></head>
 <body>
     <main>
 
     </main>
     <footer>
-        <button><img src="imgs/download.png" alt="logo windows" height="32px" width="32px"></button>
+        <div class="container-weather">
+            <i class="fa-solid fa-cloud"></i>
+            <h1>24°C <br> <p>Nublado</p></h1>
+            <!-- <h2>Nublado</h2> -->
+        </div>
+      
         <div class="container-search">
+            <button><img src="imgs/download.png" alt="logo windows" height="32px" width="32px"></button>
             <input type="text" name="search" id="search" class="input-search" placeholder="Pesquisar" title="Pesquisar"><i class="fas fa-search"></i>
+        </div>
+        <div class="container-devices">
+            <div class="hover-class">
+                <i class="fa-solid fa-arrow-up"></i>
+            </div>
+            <div class="hover-class">                
+                <i class="fa-solid fa-wifi"></i>
+                <i class="fa-solid fa-volume-high"></i>
+            </div>
+            <div class="hover-class">
+                <p>20:11 <br> 20/12/2024</p>
+                <i class="fa-solid fa-bell"></i>
+            </div>
         </div>
     </footer>
 </body>
