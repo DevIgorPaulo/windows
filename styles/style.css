@@ -22,6 +22,35 @@ main{
     height: 95vh;
     background: #494949 url('../imgs/home-windows11.png') top no-repeat;
     background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.modal{
+    height: 75%;
+    width: 30%;
+    margin-bottom: 20px;
+    background-color: #1f1c1c;
+    border: 1px solid gray;
+    border-radius: 10px;
+    display: flex;
+    flex-flow: column nowrap;
+    opacity: .99;
+}
+
+.modal-body{
+    width: 100%;
+    height: 92%;  
+}
+
+.modal-footer{
+    width: 100%;
+    height: 8%;
+    background-color: rgba(0, 0, 0, 0.336);
+    align-self: flex-end;
+    border-radius: 0 0 10px 10px;
+    border-top: 1px solid rgba(0, 0, 0, 0.527);
 }
 
 footer{
@@ -49,13 +78,9 @@ footer > .container-weather:hover{
     border-radius: 6px;
 }
 
-footer > .container-weather > h1{
+footer > .container-weather > p{
     font-size: 15px;
     margin-left: 10px;
-}
-
-footer > .container-weather > h1 >p{
-    font-size: 12px;
 }
 
 footer > .container-search > button{
@@ -105,6 +130,7 @@ footer > .container-search > button:hover{
     color: white;
     display: flex;
     align-items: center;
+    flex-flow: row wrap;
 }
 
 .hover-class{
@@ -125,6 +151,10 @@ footer > .container-search > button:hover{
 .hover-class > i{
     margin-left: 5px;
     margin-right: 5px;
+}
+
+.hover-class > p{
+    font-size: 15px;
 }
   
 
