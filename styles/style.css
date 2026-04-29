@@ -18,8 +18,8 @@ body{
 
 main{
     /* background-color: #212121; */
-    width: 100vw;
-    height: 95vh;
+    width: 100%;
+    height: 90%;
     background: #494949 url('../imgs/home-windows11.png') top no-repeat;
     background-size: cover;
     display: flex;
@@ -72,8 +72,8 @@ main{
 }
 
 footer{
-    width: 100vw;
-    height: 5vh;
+    width: 100%;
+    height: 10%;
     background-color: var(--corFooter);
     display: flex;
     flex-flow: row nowrap;
